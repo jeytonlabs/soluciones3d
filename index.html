@@ -7,21 +7,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/main.css">
-
-  <script>
-  const toggle = document.querySelector('.menu-toggle');
-  const navMenu = document.querySelector('.nav-menu');
-
-  toggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-  });
-</script>
-
 </head>
 <body>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggle = document.querySelector('.menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+
+      toggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+
   <header class="jeyton-header site-header" >
-  <div class="logo-container logo">
+  <div class="logo-container">
     <img src="imgs/logo_web.png" alt="Logo JeyTon Labs" class="logo-header" />
     <h1 class="logo-text">
       <span class="jeyton">JeyTon</span>
@@ -109,7 +110,7 @@
     </div>
   </section>
 
- <footer class="footer">
+ <footer class="footer" id="contacto">
   <div class="social-icons">
     <a href="mailto:jeytonlabs@gmail.com" class="icono">
       <i class="fas fa-envelope"></i>

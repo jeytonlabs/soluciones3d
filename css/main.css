@@ -35,16 +35,6 @@
       position: relative;
     }
 
-    .logo {
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #0077cc;
-    }
-
-    .logo span {
-      color: #F78DA7;
-    }
-
     .nav-menu ul {
       display: flex;
       gap: 2rem;
@@ -68,9 +58,8 @@
       cursor: pointer;
     }
 
-    
     /* Estilos para móviles */
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       .nav-menu {
         position: absolute;
         top: 100%;
@@ -96,8 +85,6 @@
         display: flex;
       }
     }
-
-
     /*Para responsivo*/
     
     .inicio {
@@ -224,7 +211,7 @@
     }
 
     .logo-header {
-      height: 80px;
+      height: 120px;
       width: auto;
     }
 
@@ -317,3 +304,23 @@
     .icono i {
       font-size: 1.8rem;
     }
+
+     @media (max-width: 1000px) {
+      .inicio {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+
+      .texto-inicio h2 {
+        font-size: 2rem;
+      }
+
+      .texto-inicio p {
+        font-size: 1rem;
+      }
+
+      .imagen-inicio {
+        margin-top: 1rem;
+        max-width: 220px;
+      }
