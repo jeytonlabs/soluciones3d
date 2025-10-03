@@ -7,11 +7,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('.nav-menu');
+
+  toggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
 </head>
 <body>
 
-  <header class="jeyton-header">
-  <div class="logo-container">
+  <header class="jeyton-header site-header" >
+  <div class="logo-container logo">
     <img src="imgs/logo_web.png" alt="Logo JeyTon Labs" class="logo-header" />
     <h1 class="logo-text">
       <span class="jeyton">JeyTon</span>
@@ -25,6 +35,7 @@
     <!--<a href="#manual">Manuales</a>-->
     <a href="#contacto">Contacto</a>
   </nav>
+  <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
   </header>
 
   <section class="inicio">
