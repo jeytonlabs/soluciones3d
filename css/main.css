@@ -59,7 +59,7 @@
     }
 
     /* Estilos para móviles */
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       .nav-menu {
         position: absolute;
         top: 100%;
@@ -304,7 +304,7 @@
       font-size: 1.8rem;
     }
 
-     @media (max-width: 768px) {
+     @media (max-width: 1000px) {
       .inicio {
         flex-direction: column;
         text-align: center;
