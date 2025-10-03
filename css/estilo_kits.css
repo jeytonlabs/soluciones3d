@@ -6,7 +6,7 @@
 
     header h1 {
       font-size: 2rem;
-      color: #F78DA7;
+      color: #ED6087;
     }
 
     header p {
@@ -86,6 +86,29 @@
     .btn-descarga:hover {
       background-color: #608ba8;
     }
+
+    
+  /* Responsivo para móviles */
+  @media (max-width: 1000px) {
+    .jeyton-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo-container {
+      justify-content: center;
+    }
+
+    .logo-container h2 {
+      font-size: 1.6rem;
+    }
+
+    .logo-container p {
+      font-size: 0.95rem;
+    }
+  }
+
 
 
 
