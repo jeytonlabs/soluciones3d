@@ -1,0 +1,78 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="otto_configuration" id="I7Rj.zk@!.yy=Ov]Cz;T" x="-456" y="-7">
+    <field name="PIN_YL">2</field>
+    <field name="PIN_YR">3</field>
+    <field name="PIN_RL">4</field>
+    <field name="PIN_RR">5</field>
+    <field name="PIN_Buzzer">13</field>
+    <next>
+      <block type="otto_home" id=")oX}XDhaqnJLc[3eEM{B">
+        <next>
+          <block type="otto_sound" id="g5NHq~8|yo3xWiMU7m5^">
+            <field name="otto_sound">S_superHappy</field>
+            <next>
+              <block type="otto_gesture" id="Z*d[;:4o=K]/~v5/gN}l">
+                <field name="otto_gesture">OttoSuperHappy</field>
+                <next>
+                  <block type="otto_move" id="QH.V9,f#U*5fDo6HaN#I">
+                    <field name="otto_move_sens">FORWARD</field>
+                    <field name="otto_move_speed">3000</field>
+                    <next>
+                      <block type="otto_move" id="2+%U7]V0bLbusT5XA[cI">
+                        <field name="otto_move_sens">FORWARD</field>
+                        <field name="otto_move_speed">3000</field>
+                        <next>
+                          <block type="otto_move" id="h+l69,FXjo0(VVlJE?%H">
+                            <field name="otto_move_sens">FORWARD</field>
+                            <field name="otto_move_speed">3000</field>
+                            <next>
+                              <block type="otto_move" id="0r,d.;Xyz1Mw-8_IWLnJ">
+                                <field name="otto_move_sens">BACKWARD</field>
+                                <field name="otto_move_speed">3000</field>
+                                <next>
+                                  <block type="otto_move" id="1S3;lQm{V$Aq=QKfSQ:7">
+                                    <field name="otto_move_sens">BACKWARD</field>
+                                    <field name="otto_move_speed">3000</field>
+                                    <next>
+                                      <block type="otto_sound" id="?HE9ZpCy|h_2NDNPzWSJ">
+                                        <field name="otto_sound">S_sleeping</field>
+                                        <next>
+                                          <block type="otto_gesture" id="v#x9WYo~+X[m.I_SPy|A">
+                                            <field name="otto_gesture">OttoConfused</field>
+                                            <next>
+                                              <block type="otto_home" id="If{7!--gyzn*n(H?_ExU">
+                                                <next>
+                                                  <block type="base_delay" id="MG?j4NB.m{UqiEC~[0NJ">
+                                                    <field name="unite">s</field>
+                                                    <value name="DELAY_TIME">
+                                                      <shadow type="math_number" id="FP,+`xS-*Zg8eqcUDZ#c">
+                                                        <field name="NUM">3600</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
